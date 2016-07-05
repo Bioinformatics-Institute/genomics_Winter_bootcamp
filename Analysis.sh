@@ -8,4 +8,7 @@
 mkdir -p analysis;
 
 # Runs SolexaQA++ analysis and puts outputs in the analysis directory
-SolexaQA++ analysis raw/*.fastq.gz -d analysis
+SolexaQA++ analysis raw/*.fastq.gz -d analysis;
+
+# Opens a file window to look at the files
+nautilus analysis
